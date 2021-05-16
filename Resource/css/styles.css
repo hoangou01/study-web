@@ -33,6 +33,7 @@ h1{
 .row{
     max-width: 1140px;
     margin: 0 auto;
+    
 }
 .button{
     text-decoration: none;
@@ -160,6 +161,32 @@ h3{
     font-size: 130%;
     margin-right: 10px;
 }
+/************* testimonials ****************/
+.testimonials-section{
+    background-image:linear-gradient(45deg,rgba(38, 80, 119,0.8)60%,rgba(45, 95, 93,0.85)), url('../image/images/background2.jpeg');
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    margin-top: 50px;
+}
+blockquote{
+    margin-top: 30px;
+    color: white;
+    font-style: italic;
+    line-height: 140%;
+    /* display: block; */
+}
+cite{
+    display: block;
+    color: #5fa1df;
+}
+cite img{
+    height: 50px;
+    border-radius: 50%;
+    vertical-align: middle;
+    margin-top: 10px;
+}
+
 /**************header***********************/
 
 .logo{
