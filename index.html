@@ -1,138 +1,70 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,900" rel="stylesheet">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ"
-        crossorigin="anonymous">
-    <link rel="stylesheet" href="Resource/css/styles.css">
-    <link rel="stylesheet" href="vendors/css/grid.css">
-    <title>SelfTaught</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <title>ứng dụng web</title>
 </head>
 <body>
-    <header>
-        <a href="#"><img class="logo" src="Resource/image/images/logo.png"></a>
-        <ul class="main-nav">
-            <li ><a href="#">How clients think</a></li>
-            <li ><a href="#">About</a></li>
-            <li ><a href="#">Products</a></li>
-            <li ><a href="#">Contact</a></li>
-        </ul>
-        <div class="clearfix"></div>
-        <div class="row">
-            <div class="main-heading-box">
-                <h1 class="heading-main-text">We will study <br>english together.<br>
-                    So join with us.
-            </h1>
-            <a href="#" class="button">Tell me more</a>
-            <a href="#" class="button">Join us</a>
-            </div>
-           
-        </div>
-        
-    </header>
-    
-    
-    <section class="about-section">
-        <div class="row">
-            <h2>About Us</h2>
-            <p class="p-long">
-            We are people that are studing english by ourselves . we believe that you don't need to pay so much money for being good at english . we're here to help you
-           </p>
-        </div>
-        <div class="row">
-            <div class="col span-1-of-4 about-picture">
-                <img src="Resource/image/images/activities1.jpeg" alt="activities1">
-                <p class="picture-tittle">Team working</p>
-            </div>
-            <div class="col span-1-of-4 about-picture">
-                <img src="Resource/image/images/activities2.jpeg" alt="activities2">
-                <p class="picture-tittle">Funny class</p>
-            </div>
-            <div class="col span-1-of-4 about-picture">
-                <img src="Resource/image/images/activities3.jpeg" alt="activities3">
-                <p class="picture-tittle">be confident</p>
-            </div>
-            <div class="col span-1-of-4 about-picture">
-                <img src="Resource/image/images/activities4.jpeg" alt="activities4">
-                <p class="picture-tittle">All our friends</p>
-            </div>
-        </div>
-    </section>
-    <section class="product-section">
-        <h2>Product</h2>
-        <div class="row">
-            <div class="col span-1-of-3">
-                <div class="about-product">
-                    <h3>Pronunciation class</h3>
-                    <p class="product-price">19$ per <span>month</span></p>
-                    <ul>
-                        <li><i class="fas fa-check small-icon"></i>native voice</li>
-                        <li><i class="fas fa-check small-icon"></i>Master IPA</li>
+    <div id="main">
+        <div id="header">
+            <ul id="nav">
+                <li><a href="#header">Home</a></li>
+                <li><a href="">Learing</a></li>
+                <li><a href="">About Us</a></li>
+                <li><a href="">Contact</a></li>
+                <li>
+                    <a href="">More</a>
+                    <ul class="subnav">
+                        <li><a href="">Merchandise</a></li>
+                        <li><a href="">Extras</a></li>
+                        <li><a href="">Media</a></li>
                     </ul>
-                    <a href="#" class="button">Join us</a>
+                </li>
+                
+            </ul>
+        </div>
+
+        <div id="slider" style="background-image:linear-gradient(0deg,rgba(0,0,0,.6)60%,rgba(80, 77, 77,.55)), url('./image/background3.jpeg');">
+
+            <div class="container-ef">
+                <div class="text"><span>danh mục sách</span></div>
+              </div>
+
+            <div style ="text-align: center;">
+
+                <div class="image-main" >
+                    <h3><a href="html.html">HTML</a></h3>
+                    <img class="image-learing" src="./image/html.jpg">
                 </div>
-            </div>
-            <div class="col span-1-of-3">
-                <div class="about-product">
-                    <h3>Speaking class</h3>
-                    <p class="product-price">19$per <span>month</span></p>
-                    <ul>
-                        <li><i class="fas fa-check small-icon"></i>native speaking</li>
-                        <li><i class="fas fa-check small-icon"></i>speaking naturally</li>
-                    </ul>
-                    <a href="#" class="button">Join us</a>
+
+                <div class="image-main">
+                    <h3><a href="css.html">CSS</a></h3>
+                    <img class="image-learing" src="./image/css.jpg">
                 </div>
-            </div>
-            <div class="col span-1-of-3">
-                <div class="about-product">
-                    <h3>Listening class</h3>
-                    <p class="product-price">25$per <span>month</span></p>
-                    <ul>
-                        <li><i class="fas fa-check small-icon"></i>native speech</li>
-                        <li><i class="fas fa-check small-icon"></i>hearing English clearly</li>
-                    </ul>
-                    <a href="#" class="button">Join us</a>
+
+                <div class="image-main">
+                    <h3><a href="javascript.html">javascript</a></h3>
+                    <img class="image-learing" src="./image/javascript.jpg">
                 </div>
+
+                <div class="image-main">
+                    <h3><a href="jquery.html">jQuery</a></h3>
+                    <img class="image-learing" src="./image/jQuery.jpg">
+                </div>
+
             </div>
+        </div>
+
+        <div id="content">
+            
+        </div>
+
+        <div id="footer">
 
         </div>
-    </section>
-    <section class="testimonials-section">
-        <h2>testimonials</h2>
-        <div class="row">
-            <div class="col span-1-of-3">
-                <blockquote>
-                    The course is very helpful , i can speak english fluently and i think SF English become the second family i love everyone so much , thank you 
-                    <cite>
-                        <img src="./Resource/image/images/person5.jpeg" alt="person5" >
-                        (nguyen van gio)
-                    </cite>
-
-                     
-                    </blockquote>
-            </div>
-            <div class="col span-1-of-3">
-                <blockquote>
-                    i believe that who cane to this  English center would love this place as i Did . When the course finished , i felt sad because studying in that place i always felt funny 
-                    <cite>
-                        <img src="./Resource/image/images/person2.jpeg" alt="person5" >
-                        (tran vo van)
-                    </cite>
-                     
-                    </blockquote>
-            </div>
-            <div class="col span-1-of-3">
-                <blockquote>
-                    Trust me you can master English just by joining this class i did so believe that you can testimonials-section . Hope that one day you can join in this class 
-                    <cite>
-                        <img src="./Resource/image/images/person4.jpeg" alt="person5" >
-                        (le du do)
-                    </cite>
-                     
-                    </blockquote>
-            </div>
-        </div>
-    </section>
-    
+    </div>
 </body>
 </html>
